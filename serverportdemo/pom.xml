@@ -5,12 +5,15 @@
     <artifactId>spring-boot2-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.programsquare</groupId>
   <artifactId>serverportdemo</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>serverportdemo</name>
   <description>demo for changing the server port of Spring Boot apps</description>
+  <modules>
+  <module>ServerPortProgramDemo</module>
+    <module>ServerPortPropertiesDemo</module>
+      <module>ServerPortYmlDemo</module>
+  </modules>
 <dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
