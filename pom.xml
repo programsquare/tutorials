@@ -10,6 +10,7 @@
 	<module>parent-spring-boot-2</module>
 	<module>disablebanner</module>
 	<module>serverportdemo</module>
+	<module>renameappproperties</module>
 	</modules>
 	    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
