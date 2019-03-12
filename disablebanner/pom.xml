@@ -2,32 +2,17 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.programsquare</groupId>
-    <artifactId>spring-boot2-parent</artifactId>
+    <artifactId>tutorials</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+     <relativePath>..</relativePath>
   </parent>
   <artifactId>disablebanner</artifactId>
   <packaging>pom</packaging>
   <name>disablebanner</name>
-  <description>Demo to disable the spring boot banner</description>
-  <dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jersey</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+  <description>Project to demo disabling the Spring Boot startup banner</description>
+  <modules>
+  	<module>DisableBannerWithProperties</module>
+  	<module>DisableBannerWithYml</module>
+  	<module>DisableBannerWithProgram</module>
+  </modules>
 </project>

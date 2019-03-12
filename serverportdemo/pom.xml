@@ -2,37 +2,16 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.programsquare</groupId>
-    <artifactId>spring-boot2-parent</artifactId>
+    <artifactId>tutorials</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>serverportdemo</artifactId>
   <packaging>pom</packaging>
   <name>serverportdemo</name>
-  <description>demo for changing the server port of Spring Boot apps</description>
+  <description>Demo to change the Spring Boot server port</description>
   <modules>
-  <module>ServerPortProgramDemo</module>
-    <module>ServerPortPropertiesDemo</module>
-      <module>ServerPortYmlDemo</module>
+  	<module>ServerPortWithProperties</module>
+  	<module>ServerPortWithYml</module>
+  	<module>ServerPortWithProgram</module>
   </modules>
-<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jersey</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 </project>
